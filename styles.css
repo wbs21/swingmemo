@@ -605,6 +605,158 @@ textarea {
   color: rgba(245, 242, 232, 0.35);
 }
 
+.feature-catalog {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.catalog-card {
+  padding: 30px;
+  background: rgba(255, 253, 248, 0.84);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.catalog-card.pro {
+  background:
+    linear-gradient(145deg, rgba(220, 239, 89, 0.22), transparent 46%),
+    var(--card);
+}
+
+.catalog-label {
+  display: inline-block;
+  margin-bottom: 22px;
+  padding: 5px 9px;
+  color: var(--forest);
+  background: var(--surface-tint);
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.catalog-card.pro .catalog-label {
+  background: var(--tennis);
+}
+
+.catalog-card h3 {
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  letter-spacing: -0.03em;
+}
+
+.catalog-card > p {
+  margin: 0 0 22px;
+  color: var(--muted);
+}
+
+.catalog-list {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-list li {
+  position: relative;
+  padding-left: 24px;
+  color: #48564c;
+}
+
+.catalog-list li::before {
+  position: absolute;
+  top: 0.64em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  background: var(--forest);
+  border-radius: 50%;
+  content: "";
+}
+
+.catalog-list strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.category-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.category-strip span {
+  padding: 8px 13px;
+  color: var(--forest);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.workflow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 44px;
+}
+
+.workflow-step {
+  padding: 26px 0;
+  border-top: 1px solid var(--line-strong);
+}
+
+.workflow-step span {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--forest);
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.workflow-step h3 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  letter-spacing: -0.025em;
+}
+
+.workflow-step p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.free-includes {
+  margin-top: 30px;
+  padding: 22px 24px;
+  background: rgba(255, 253, 248, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.free-includes strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--serif);
+  font-size: 1.1rem;
+}
+
+.free-includes p {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
 .metrics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1328,6 +1480,23 @@ textarea {
 
   .feature-card:nth-child(n) {
     grid-column: auto;
+  }
+
+  .feature-catalog {
+    grid-template-columns: 1fr;
+  }
+
+  .workflow {
+    grid-template-columns: 1fr;
+    margin-top: 28px;
+  }
+
+  .workflow-step {
+    padding-block: 22px;
+  }
+
+  .workflow-step span {
+    margin-bottom: 12px;
   }
 
   .feature-icon {

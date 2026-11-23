@@ -3,17 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SwingMemo — Tennis Expense Journal</title>
-  <meta name="description" content="SwingMemo is a private, minimal tennis expense journal. Log court fees, coaching and gear in seconds, then see where your game budget goes.">
+  <title>SwingMemo — Tennis Expense Journal &amp; Budget Tracker</title>
+  <meta name="description" content="Track court fees, coaching, balls and tennis gear in seconds. SwingMemo is a private iPhone expense journal with ratings, tags, budgets, trends and backups.">
+  <meta name="keywords" content="tennis expense journal, tennis budget tracker, tennis spending app, court fees, coaching costs, tennis gear expenses, iPhone journal">
+  <meta name="author" content="SwingMemo">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="application-name" content="SwingMemo">
+  <meta name="apple-mobile-web-app-title" content="SwingMemo">
   <meta name="theme-color" content="#f5f2e8">
   <meta name="color-scheme" content="light">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="SwingMemo — Tennis Expense Journal">
-  <meta property="og:description" content="Track every court fee, lesson and can of balls in seconds. See what your tennis habit really costs.">
+  <meta property="og:title" content="SwingMemo — Tennis Expense Journal &amp; Budget Tracker">
+  <meta property="og:description" content="Track every court fee, lesson and can of balls in seconds. See what your tennis habit really costs with a private iPhone journal.">
   <meta property="og:site_name" content="SwingMemo">
+  <meta property="og:url" content="https://wbs21.github.io/swingmemo/">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SwingMemo — Tennis Expense Journal">
+  <meta name="twitter:description" content="Track court fees, coaching, balls and tennis gear in seconds, then understand your spending with SwingMemo.">
+  <!-- Pasted Google Search Console verification tag goes here. -->
+  <link rel="canonical" href="https://wbs21.github.io/swingmemo/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://wbs21.github.io/swingmemo/#website",
+          "url": "https://wbs21.github.io/swingmemo/",
+          "name": "SwingMemo",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://wbs21.github.io/swingmemo/#app",
+          "name": "SwingMemo",
+          "url": "https://wbs21.github.io/swingmemo/",
+          "description": "A private tennis expense journal for logging court fees, coaching, balls, rackets, apparel, shoes and gear, with optional Pro spending insights.",
+          "applicationCategory": "FinanceApplication",
+          "applicationSubCategory": "Personal finance",
+          "operatingSystem": "iOS 17 or later",
+          "isAccessibleForFree": true,
+          "inLanguage": "en-US",
+          "featureList": [
+            "Fast expense logging",
+            "Eight tennis-specific categories",
+            "Notes, photos, ratings and training tags",
+            "Tournament and trip grouping",
+            "Search and filters",
+            "Backup, restore, iCloud backup and CSV export",
+            "Weekly, monthly and yearly spending insights",
+            "Monthly and custom-season budgets",
+            "Year in Review and PDF reports"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free app with an optional one-time SwingMemo Pro purchase for $4.99."
+          },
+          "privacyPolicy": "https://wbs21.github.io/swingmemo/privacy.html",
+          "softwareHelp": "https://wbs21.github.io/swingmemo/support.html"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://wbs21.github.io/swingmemo/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is SwingMemo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SwingMemo is a tennis expense journal for iPhone. It records court fees, coaching, balls, rackets, apparel, shoes, gear and other tennis costs, then helps users understand spending with optional Pro analysis."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does SwingMemo require an account?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. SwingMemo works without registration and stores the journal locally on the iPhone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I back up my entries?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. SwingMemo supports full local backup and restore, seven-day local snapshots, optional iCloud Drive backup and CSV export."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is SwingMemo Pro a subscription?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. SwingMemo Pro is a one-time $4.99 in-app purchase with no recurring subscription."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,6 +120,7 @@
       </a>
       <div class="nav-links">
         <a href="#features">Features</a>
+        <a href="#pro">Pro</a>
         <a href="#privacy">Privacy</a>
         <a href="support.html">Support</a>
       </div>
@@ -116,6 +211,94 @@
       </div>
     </section>
 
+    <section class="section container" id="feature-tour" aria-labelledby="feature-tour-title">
+      <div class="section-heading">
+        <p class="eyebrow">The complete journal</p>
+        <h2 id="feature-tour-title">Everything you need to remember the season.</h2>
+        <p>SwingMemo handles the quick everyday entry and the useful details around it. Core journaling is free; deeper analysis is available through one Pro purchase.</p>
+      </div>
+
+      <div class="feature-catalog">
+        <article class="catalog-card">
+          <span class="catalog-label">Included free · Journal</span>
+          <h3>Fast, tennis-specific logging</h3>
+          <p>A focused entry screen built around the costs that actually show up in a tennis life.</p>
+          <ul class="catalog-list">
+            <li><strong>Eight fixed categories</strong> Court, Coach, Balls, Racket, Apparel, Shoes, Gear and Other.</li>
+            <li><strong>Custom amount keypad</strong> Enter USD amounts with a date, quantity and category-aware units.</li>
+            <li><strong>Optional context</strong> Add a short note, named subject, 1–5 star rating and one photo.</li>
+            <li><strong>Training focus</strong> Tag court sessions and coaching with Serve, Return, Forehand, Backhand, Volley, Footwork, Match Play or Fitness.</li>
+            <li><strong>Tournament and trip tags</strong> Group entry fees, travel, accommodation, coaching and gear under one event.</li>
+            <li><strong>Fast repeat and recovery</strong> Long-press the home action to repeat the last entry, and undo a swipe-to-delete for five seconds.</li>
+          </ul>
+          <div class="category-strip" aria-label="SwingMemo categories">
+            <span>Court</span><span>Coach</span><span>Balls</span><span>Racket</span>
+            <span>Apparel</span><span>Shoes</span><span>Gear</span><span>Other</span>
+          </div>
+        </article>
+
+        <article class="catalog-card">
+          <span class="catalog-label">Included free · Memory</span>
+          <h3>Find the places and gear worth repeating</h3>
+          <p>Go beyond an amount and keep the people, products and sessions that shaped the spend.</p>
+          <ul class="catalog-list">
+            <li><strong>Favorites</strong> See average ratings, rating counts and a timeline for each court, coach, ball, racket, shoe or gear item.</li>
+            <li><strong>Subject history</strong> Revisit every entry for a rated subject, including notes and photos.</li>
+            <li><strong>All Entries</strong> Search across notes, subjects, categories and tags, then filter by category or time.</li>
+            <li><strong>Photo workflow</strong> Take a photo or choose one from the library, crop it, resize to a 1600-pixel maximum edge, compress it and strip metadata.</li>
+            <li><strong>Edit and delete</strong> Update any detail later from the record detail screen, with immediate local saving.</li>
+          </ul>
+        </article>
+
+        <article class="catalog-card">
+          <span class="catalog-label">Included free · Ownership</span>
+          <h3>Keep control of your journal</h3>
+          <p>There is no account or developer server. Your data leaves the app only when you choose an export or backup destination.</p>
+          <ul class="catalog-list">
+            <li><strong>Seven-day snapshots</strong> A local snapshot is created on each active day; the latest seven active days are retained.</li>
+            <li><strong>Full backup and restore</strong> Export a single <code>.swingmemo</code> file with records, settings and compressed photos.</li>
+            <li><strong>Merge-safe restore</strong> Missing records are imported, duplicates are skipped and existing records are not overwritten.</li>
+            <li><strong>Optional iCloud Drive backup</strong> Write a backup to your private iCloud container only when you choose to.</li>
+            <li><strong>CSV export</strong> Open the journal in a spreadsheet for personal accounting or sorting.</li>
+            <li><strong>Privacy-first storage</strong> No login, ads, analytics, tracking SDKs or developer-operated user-data server.</li>
+          </ul>
+        </article>
+
+        <article class="catalog-card pro">
+          <span class="catalog-label">SwingMemo Pro · One-time</span>
+          <h3>Turn entries into useful decisions</h3>
+          <p>Pro adds analysis and season tools without hiding your original journal behind a subscription.</p>
+          <ul class="catalog-list">
+            <li><strong>Week, month and year views</strong> See total spend, record count, quantity, average entry and comparison with the previous period.</li>
+            <li><strong>Trends and category mix</strong> Follow daily or monthly patterns, ranking, share of spend and unit costs.</li>
+            <li><strong>Monthly and custom-season budgets</strong> Set a target and follow the remaining room in the period that matters to you.</li>
+            <li><strong>Tournament and trip summaries</strong> Review the total and record count for every named event.</li>
+            <li><strong>Training-focus analysis</strong> Compare spending across the skills you are actively practicing.</li>
+            <li><strong>Year in Review</strong> Generate a branded annual recap and share-card PNG.</li>
+            <li><strong>PDF expense reports</strong> Create a season or period report with summaries, categories, events, favorites and the complete entry list.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="workflow" aria-label="How SwingMemo works">
+        <article class="workflow-step">
+          <span>01 / LOG</span>
+          <h3>Start with the amount</h3>
+          <p>Choose a category, enter the cost and keep the defaults when speed matters.</p>
+        </article>
+        <article class="workflow-step">
+          <span>02 / REMEMBER</span>
+          <h3>Add only the context you want</h3>
+          <p>Attach a note, photo, rating, training focus or event tag without slowing down a quick entry.</p>
+        </article>
+        <article class="workflow-step">
+          <span>03 / UNDERSTAND</span>
+          <h3>See the bigger picture later</h3>
+          <p>Search, compare and review the costs behind your courts, coaches, events and improvement.</p>
+        </article>
+      </div>
+    </section>
+
     <section class="section-tight container" aria-label="SwingMemo product principles">
       <div class="metrics">
         <div class="metric">
@@ -146,12 +329,16 @@
       </div>
     </section>
 
-    <section class="section container" aria-labelledby="pricing-title">
+    <section class="section container" id="pro" aria-labelledby="pricing-title">
       <div class="pricing">
         <div class="pricing-copy">
           <p class="eyebrow">Free to use. Pro when you want depth.</p>
           <h2 id="pricing-title">Keep the whole journal. Add the bigger picture.</h2>
           <p>The essential logging experience is free. A one-time SwingMemo Pro purchase unlocks trends, budgets, detailed comparisons and Year in Review.</p>
+          <div class="free-includes">
+            <strong>Always included free</strong>
+            <p>Unlimited entries, all eight categories, notes, photos, ratings, training and event tags, Favorites, search, snapshots, backup/restore, iCloud backup and CSV export.</p>
+          </div>
         </div>
         <div class="price-card">
           <div class="price-card-header">
@@ -165,6 +352,7 @@
             <li>Tournament and trip summaries</li>
             <li>Training-focus analysis</li>
             <li>Branded Year in Review share card</li>
+            <li>Branded PDF expense reports</li>
           </ul>
           <span class="button disabled" aria-label="Coming soon to the App Store">Coming soon to the App Store</span>
           <p class="price-footnote">One-time purchase. No subscription or account required.</p>
@@ -172,19 +360,23 @@
       </div>
     </section>
 
-    <section class="section container" aria-labelledby="faq-title">
+    <section class="section container" id="faq" aria-labelledby="faq-title">
       <div class="section-heading">
         <p class="eyebrow">Good to know</p>
         <h2 id="faq-title">Questions before your first entry</h2>
       </div>
       <div class="faq-list">
         <details>
+          <summary>What is SwingMemo?</summary>
+          <p>SwingMemo is a tennis expense journal for iPhone. It records court fees, coaching, balls, rackets, apparel, shoes, gear and other tennis costs, then offers optional Pro tools for understanding the season.</p>
+        </details>
+        <details>
           <summary>Does SwingMemo require an account?</summary>
           <p>No. The app works without registration and stores your journal locally on your iPhone.</p>
         </details>
         <details>
           <summary>Can I back up my entries?</summary>
-          <p>Yes. You can create a complete SwingMemo backup, export a CSV, or keep daily local snapshots. See the support page for restore guidance.</p>
+          <p>Yes. You can create a complete SwingMemo backup, keep seven days of local snapshots, use optional private iCloud Drive backup, or export a CSV. See the support page for restore guidance.</p>
         </details>
         <details>
           <summary>Is Pro a subscription?</summary>
@@ -193,6 +385,14 @@
         <details>
           <summary>What happens to attached photos?</summary>
           <p>Photos are cropped, resized to a maximum 1600-pixel edge, compressed as JPEG and stripped of metadata before SwingMemo stores them.</p>
+        </details>
+        <details>
+          <summary>What does SwingMemo Pro include?</summary>
+          <p>Pro adds weekly, monthly and yearly trends, category mix and unit costs, monthly and custom-season budgets, event and training-focus summaries, Year in Review and branded PDF expense reports.</p>
+        </details>
+        <details>
+          <summary>Does SwingMemo support iPad?</summary>
+          <p>SwingMemo is designed for iPhone and requires iOS 17 or later. The current release does not include a dedicated iPad layout.</p>
         </details>
       </div>
     </section>

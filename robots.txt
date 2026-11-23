@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace YOUR-USERNAME and the repository path after the GitHub Pages site is live.
-Sitemap: https://YOUR-USERNAME.github.io/SwingMemo/sitemap.xml
+Sitemap: https://wbs21.github.io/swingmemo/sitemap.xml
